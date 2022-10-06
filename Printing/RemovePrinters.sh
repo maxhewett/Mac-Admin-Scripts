@@ -2,14 +2,7 @@
 ######################################
 #     Find/Remove Printers Script    #
 #        Max Hewett 30/08/22         #
-#             Cyclone                #
 ######################################
-
-### Variables ###
-
-
-
-#################
 
 ## Remove IPP printers ##
 for The_Printer1 in  $(lpstat -v | awk '/ipp:/ {print $3}' | rev | cut -c2- | rev); do

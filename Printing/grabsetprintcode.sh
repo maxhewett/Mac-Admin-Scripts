@@ -2,7 +2,6 @@
 ######################################
 #      Grab and set Print Code       #
 #        Max Hewett 03/10/22         #
-#             Cyclone                #
 ######################################
 
 function askForDeptCode ()

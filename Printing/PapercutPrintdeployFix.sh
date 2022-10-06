@@ -2,7 +2,6 @@
 ######################################
 #     Find/Remove Printers Script    #
 #        Max Hewett 14/09/22         #
-#             Cyclone                #
 ######################################
 
 ### Variables ###

@@ -2,7 +2,6 @@
 ######################################
 #     JSS Decommissioning Script     #
 #        Max Hewett 06/10/22         #
-#             Cyclone                #
 ######################################
 
 ### Variables ###
