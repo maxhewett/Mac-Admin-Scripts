@@ -101,7 +101,7 @@ policy_array=('
         },
         {
             "listitem": "Removing MDM Components...",
-            "icon": "SF=sparkles.tv.fill,colour=auto,weight=medium",
+            "icon": "SF=command.square.fill,colour=auto,weight=medium",
             "trigger_list": [
                 {
                     "trigger": "removefrom_JSS"
