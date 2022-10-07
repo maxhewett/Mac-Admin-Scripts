@@ -1,6 +1,6 @@
 #!/bin/sh
 ######################################
-#   Medbury Decommissioning Script   #
+#     JSS Decommissioning Script     #
 #        Max Hewett 07/10/22         #
 #             Cyclone                #
 ######################################
