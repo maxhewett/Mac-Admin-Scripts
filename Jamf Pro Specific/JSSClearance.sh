@@ -1,7 +1,7 @@
 #!/bin/sh
 ######################################
 #     JSS Decommissioning Script     #
-#        Max Hewett 06/10/22         #
+#        Max Hewett 07/10/22         #
 ######################################
 
 ### Variables ###
@@ -31,6 +31,13 @@ mv /etc/cups/printers.conf /etc/cups/printers.conf.backup
 #Restart CUPS.
 launchctl start org.cups.cupsd
 echo "reset CUPS"
+
+#remove copiers
+lpadmin -x Colour_Copier
+echo "removed colour copier"
+
+lpadmin -x Grayscale_Copier
+echo "removed grayscale copier"
 
 
 ## Remove apps ##
