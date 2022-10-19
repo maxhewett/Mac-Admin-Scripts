@@ -369,7 +369,7 @@ removefrom_JSS() {
 
 dialog_update "progresstext: Removing Mac from Jamf Pro Server..."
 sleep 2
-if [ $(curl -s -k -u "${4}:${5}" "${jssURL}/JSSResource/computers/id/${JamfID}" -X DELETE) ] ; then
+if [ $(curl -s -k -u '${4}:${5}' '${jssURL}/JSSResource/computers/id/${JamfID}' -X DELETE) ] ; then
 dialog_update "progresstext: Successfully removed Mac from Jamf Pro Server."
 sleep 2
 else
