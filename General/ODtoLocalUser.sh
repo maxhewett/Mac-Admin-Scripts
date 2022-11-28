@@ -6,7 +6,7 @@
 
 ### Variables ###
 adminUser="ladmin"
-adminPass="t@llEarth81"
+adminPass="********"
 tempUser="temp"
 tempPass="temp"
 loggedInUser=`/bin/ls -l /dev/console | /usr/bin/awk '{ print $3 }'`
